@@ -1,6 +1,6 @@
 # Country IP block web access
 
-PHP script with contol panel to block web access from certain countries of your choosing. It uses http://api.hostip.info IP Location API.
+PHP script with control panel to block web access from certain countries of your choosing. It uses http://api.hostip.info IP Location API.
 
 ## CONFIGURE:
 

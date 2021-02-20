@@ -2,10 +2,6 @@
 
 include('functions.php');
 		
-/**************************************************************************************/
-
-
-
 $op = @sanitize($_REQUEST['op']);
 switch($op) {
 	default:
@@ -22,13 +18,6 @@ switch($op) {
 			print_blocked_countries();			
 			print_insert_code();
 			echo "<br><br><a href=control_panel.php><b>Go back</b></a><br>";
-		}
-	break;
-	case "monitor": 		
-		if(check_block_country()){
-			echo "oh.";
-			//header('Location: '.$GLOBALS['REDIRECT_URL'].'');
-			//exit;
 		}
 	break;
 }
